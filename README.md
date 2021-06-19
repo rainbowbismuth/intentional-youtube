@@ -8,7 +8,7 @@ It is intentionally minimal so you can read it and install it yourself.
 
 ## Why not use `$other_thing`?
 
-I don't know. Is it 25 lines of commented code? Maybe you should.
+I don't know. Is it 38 lines of commented code? Maybe you should.
 
 ## Contributing
 

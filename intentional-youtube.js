@@ -16,6 +16,15 @@
         elem.replaceWith(""); // Get outta here.
       }
     }
+    const classesCancelled = [
+      "ytp-endscreen-content", // Recommend videos that show up in the video player
+    ];
+    for (const klass of classesCancelled) {
+      const elems = document.getElementsByClassName(klass);
+      for (const elem of elems) {
+        elem.replaceWith(""); // It's a snow day after all.
+      }
+    }
   };
   const observer = new MutationObserver(function (_mutationsList, _observer) {
     deleteStuffOnPage();
